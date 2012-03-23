@@ -1,0 +1,70 @@
+/*body {
+	background: transparent url(../img/bg-grid-baseline.png) 0 0;
+}*/
+
+body {
+	background: none;
+}
+
+.left {
+	float: left;
+	margin-right: 16px;
+}
+
+.right {
+	float: right;
+	margin-left: 16px;
+}
+
+h5 {
+	margin-bottom: 0;
+}
+
+.summary {
+	margin-left: 70px;
+}
+
+img {
+	border: 1px solid #CCC;
+	background: white;
+	padding: 2px;
+}
+
+.carousel {
+	position: relative;
+}
+
+.carousel .description {
+	padding: 36px 32px;
+	position: absolute;
+}
+
+.carousel .next,
+.carousel .previous {
+	position: absolute;
+}
+
+.carousel .next {
+	right: 32px;
+	bottom: 36px;
+}
+
+.carousel .previous {
+	left: 32px;
+	bottom: 36px;
+}
+
+section#content ul {
+	margin-left: 17px;
+}
+
+#navSecondary.crumb a:link.active,
+#navSecondary.crumb a:visited.active,
+#navSecondary.crumb a:active.active {
+	background-image: none;
+	color: white;
+}
+
+.path {
+	outline: 2px solid yellow;
+}

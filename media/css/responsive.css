@@ -1,0 +1,181 @@
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (max-width : 1000px), (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+   
+    /* Set width of the containers */
+    .container
+    { width: 680px; margin: 0 auto; padding: 0; }
+    
+    #primary
+    { width: 350px; }
+    
+    /* Titles */
+    h4
+    { padding: 15px 0 0 0; display: block; }
+    
+    /* Sidebar */
+    #sidebar
+    { padding-left: 30px; }
+    
+    /* Feaured items */
+    .feature
+    { width: 100%; margin: 0 0 15px 0;  }
+    
+    .feature img
+    { float: left; margin: 0 8px 0 0;  }
+    
+    .featureBox
+    { float: left; width: 150px; }
+   
+    /* Footer */  
+    #footer
+    { width: 100%;  }
+   
+    #footer ul, #footer p
+    { width: 100%; padding: 0; text-align: center; }
+   
+    #footer ul li
+    { display: inline-block;  margin: 0 5px; }
+    
+    /* Search */
+    #searchBox
+    { right: 240px; top: 0; }
+}
+
+
+/* iPhone (landscape) */ 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation:landscape), (max-width : 767px){
+
+    /* iOS text adjust */
+    html 
+    { -webkit-text-size-adjust: none; }
+
+    /* Set width of the containers */
+    .container
+    { width: 100%; margin: 0; padding: 0; }
+
+    .content
+    { width: auto; }
+    
+    #primary
+    { width: 100%; }
+
+    #globalMasthead, #localMasthead 
+    { height: auto; position: relative; }
+    
+    #content
+    { margin: 0; padding: 0; }
+    
+    /* Titles */
+    h4
+    { padding: 15px 0 0 15px; display: block; }
+    
+    h6
+    { padding: 0 0 0 15px; display: block; }
+    
+    /* Containters */
+    #sidebar
+    {  padding: 0; display: block; width: 100%; float: left; margin: 15px 0 0 0; }
+ 
+    /* Feature boxes */
+    .feature
+    { width: 100%;  margin: 0 0 15px 15px;  }
+    
+    .feature img
+    { float: left; margin: 0 8px 0 0; }
+    
+    .featureBox
+    { float: left; width: 250px; }
+ 
+    /* Footer */  
+     #footer
+     { width: 100%;  }
+    
+     #footer ul, #footer p
+     { width: 100%; padding: 0; text-align: center; }
+    
+     #footer ul li
+     { display: inline-block;  margin: 0 5px; }
+    
+    /* Search */
+    #globalMasthead form
+    { position: absolute; left: 10px; top: 45px; padding: 0; }
+    
+    /* Reposition navigation */
+    #navPrimary
+    {position: absolute; z-index: 200; top: 310px; overflow-x: hidden;  }
+    
+    /* Disable fixed width */
+    .fluid
+    { width: 100%; }
+}
+
+
+
+/* iPhone (portrait) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation:portrait), (max-width : 495px)  and (orientation:portrait) {
+    
+    /* iOS text adjust */
+    html 
+    { -webkit-text-size-adjust: none; }
+
+    /* Set width of the containers */
+    .container
+    { width: auto; margin: 0; padding: 0; }
+
+    .content
+    { width: auto; }
+
+    #globalMasthead, #localMasthead 
+    { height: auto; }
+    
+    #content
+    { margin: 0; padding: 0; position: relative; }
+
+    /* Titles */
+    h4
+    { padding: 15px 0 0 15px; display: block; }
+    
+    h6
+    { padding: 0 0 0 15px; display: block; }
+
+    /* Sidebar */
+    #sidebar
+    {  padding: 0; display: block; width: 100%; float: left; margin: 15px 0 0 0; }
+ 
+    /* Featured items */
+    .feature
+    { width: 100%;  margin: 0 0 15px 15px;  }
+    
+    .feature img
+    { float: left; margin: 0 8px 0 0; max-width: 120px; max-height: 66px; }
+    
+    .featureBox
+    { float: left; width:150px; }
+    
+    .summary
+    { margin-left: 60px; max-width: 300px;}
+ 
+     #identifier
+     { width: 35px; margin-right: 10px; }
+ 
+    /* Footer */  
+    #footer
+    { width: 100%;  }
+    
+    #footer ul, #footer p
+    { width: 100%; padding: 0; text-align: center; }
+    
+    #footer ul li
+    { display: inline-block;  margin: 0 5px; }
+    
+    /* Form */
+    #globalMasthead form
+    { position: absolute; right: 10px; top: 45px; padding: 0;  }
+    
+    /* Reposition subnav */
+    #navPrimary
+    {position: absolute; z-index: 200; top: 310px; width: 100%; overflow: hidden;  }
+}
+
